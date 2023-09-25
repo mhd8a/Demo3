@@ -1,4 +1,3 @@
-
 locals {
   # Service plan needs to be unique only within the resource group
   app_service_plan_name = "${var.name_prefix}app-service-plan"
